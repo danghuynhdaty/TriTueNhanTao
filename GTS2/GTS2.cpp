@@ -76,7 +76,7 @@ void GTS1(int city[1000][1000], int citynumber, int startcity)
 	if (cost < bestcost)
 	{
 		bestcost = cost;
-		for (int i = 1; i < citynumber; i++)
+		for (int i = 1; i <= citynumber; i++)
 		{
 			besttour[i] = tour[i];
 		}
@@ -87,12 +87,12 @@ void GTS2(int city[1000][1000], int citynumber)
 {
 	printf("Nhap vao so thanh pho can di chuyen ");
 	int amount;
-	cin >> amount;
-	cout << "Nhap vao nhung thanh pho di chuyen" << endl;
+	scanf("%d", &amount);
+	printf("Nhap vao nhung thanh pho di chuyen ");
 	int citytovisit = 0;
 	for (int i = 0; i < amount; i++)
 	{
-		cin >> citytovisit;
+		scanf("%d", &citytovisit);
 		GTS1(city, citynumber, citytovisit);
 		for (int i = 0; i <= citynumber; i++)
 		{
@@ -100,5 +100,10 @@ void GTS2(int city[1000][1000], int citynumber)
 			visit[i] = 0;
 		}
 	}
-	cout << "Best cost " << bestcost << endl;
+	printf("Best cost %d \n", bestcost);
+	for (int i = 1; i <= citynumber; i++)
+	{
+		printf("%d -> ", besttour[i]);
+	}
+	printf("%d", besttour[1]);
 }
