@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhanCongCongViec", "PhanCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhanCongCongViecCSharp", "PhanCongCongViecCSharp\PhanCongCongViecCSharp.csproj", "{F57DC026-137C-4562-8E40-21BD157B327A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThuatToanToMau", "ThuatToanToMau\ThuatToanToMau.vcxproj", "{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,16 @@ Global
 		{F57DC026-137C-4562-8E40-21BD157B327A}.Release|x64.Build.0 = Release|Any CPU
 		{F57DC026-137C-4562-8E40-21BD157B327A}.Release|x86.ActiveCfg = Release|Any CPU
 		{F57DC026-137C-4562-8E40-21BD157B327A}.Release|x86.Build.0 = Release|Any CPU
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Debug|x64.ActiveCfg = Debug|x64
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Debug|x64.Build.0 = Debug|x64
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Debug|x86.Build.0 = Debug|Win32
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Release|Any CPU.ActiveCfg = Release|Win32
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Release|x64.ActiveCfg = Release|x64
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Release|x64.Build.0 = Release|x64
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Release|x86.ActiveCfg = Release|Win32
+		{1AC6A0B3-06C3-4D56-A2A6-3C4C700FDB03}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
